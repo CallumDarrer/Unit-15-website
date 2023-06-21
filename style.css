@@ -1,0 +1,214 @@
+HTML {
+	background-color: #080E41;
+}
+
+  
+body {
+
+  font-family: monospace;
+  font-size: 24px;
+  margin: 0;
+}
+
+
+#content_box {
+		position: absolute;
+		top: 93%;
+		padding: 0.1%;
+		width: 60%;
+		background: #2f2fa2;
+		margin-left: 20%;
+		height: 2000px;
+		opacity: 100%;
+}
+
+#imageholder {
+	position: relative;
+	top: 80px;
+	padding: 0.1%;
+	width: 100%;
+	background: #8b8b8b;
+	height: 750px;
+	opacity: 100%;
+	width: 1750px;
+	left: 55px;
+	
+}
+
+.maintext {
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	color: white;
+	font-size: 96px;
+	font-weight: bold;
+	font-family: 'Global Monospace';
+	max-width: 55%;
+
+}
+
+.subtext {
+	position: absolute;
+	top: 47%;
+	left: 10%;
+	color: white;
+	font-size: 38px;
+	font-weight: bold;
+	font-family: 'Global Monospace';
+}
+
+.button {
+	display: inline-block;
+	background-color: #f64c72;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	position: relative;
+	top: 70%;
+	left: 5%;
+	font-weight: bold;
+	transform: scale(1.3)
+}
+
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	right: 0;
+	top: 0%;
+	width: 30%;
+	display: flex;
+	justify-content: flex-end;
+	color: white;
+	text-align: center;
+	flex-wrap: nowrap;
+	overflow: hidden;
+	z-index:99;
+	
+}
+
+li {
+		float: left;
+		background: #080E41;
+		padding: 3%;
+		text-align: center;
+		width: 100%;
+		display: inline;
+
+		
+		
+}
+li a {
+		display: block;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+}
+li:hover {
+		background: #99738e;
+		border: 1px solid white;
+}
+
+@keyframes openAnimation {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(0.7);
+    }
+}
+
+
+
+
+#image_logo {
+	position: fixed;
+	top: -30px;
+	left: 37%;
+	transform: scale(0.7);
+	animation: openAnimation 3s ease-in-out;
+	z-index: 98;
+}
+
+#navbar {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background: #080E41;
+	left: 0%;
+	height: 63px;
+	opacity: 100%;
+}
+
+#job {
+	position: fixed;
+	padding: 0.5%;
+	top: 8px;
+	display: flex;
+	justify-content: flex-end;
+	width: 20%;
+	text-align: center;
+	color: white;
+	z-index: 97;
+}
+
+maintext{
+	color: white;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}
+subtext {
+	color: white;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}
+
+#image_arrow {
+	position: absolute;
+	top: 80%;
+	left: 40%;
+	transform: scale(0.4)
+}
+
+#juniordev {
+	 
+	color: white;
+	position: absolute;
+	top: 190%;
+	left: 5%;
+	font-size: 48px;
+	padding: 5%;
+}
+
+#image_work {
+	position: absolute;
+	top: 105%;
+	left: 0px;
+	width: 100%;
+	
+}
+
+#infobox {
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	right: 0px;
+	background: #f64c72;
+	top: 155.9%;
+	
+
+}
+
+#devbox {
+	width: 100%;
+	height: 600px;
+	padding: 1%;
+	background: gray;
+	bottom: 150px;
+}
